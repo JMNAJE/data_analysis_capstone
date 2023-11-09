@@ -90,19 +90,11 @@ To deactivate the virtual environment when you're done, simply type `deactivate`
 
 ## At Bats
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-## Pitches
-
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-## Players
-
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+This dataset contains the names of Major League Baseball players along with the number of games played, at-bats, runs, hits, and other measurable statistics for the 2018 season.
 
 ## Teams
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+This dataset captures the statistics of all 30 Major League Baseball teams for the 2018 season. It includes team stats such as total wins and losses. Additionally, it encompasses overall team performance metrics such as runs, hits, home runs, and strikeouts.
 
 ## Data Analysis Capstone Requirements | Spring 2023
 
