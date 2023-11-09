@@ -6,7 +6,7 @@ data_analysis_capstone.
 
 ## About
 
-Welcome! This analysis explores the statistics of the 2018 Major League Baseball (MLB) season, examining both individual player and team performance. The goal of this project is to ascertain whether there was any correlation between the top players and the most successful teams.
+Welcome! This analysis explores the statistics of the 2018 Major League Baseball (MLB) season, examining both individual player and team performance. The goal of this project is to ascertain whether there is any correlation between the top players and the most successful teams.
 
 Unlike other team sports, a high payroll, indicative of having the best players, does not always guarantee success. In basketball, securing the number one draft pick in the National Basketball Association  (NBA) can transform a franchise dramatically, whereas in baseball, a top draft pick may not necessarily secure a spot on a major league team.
 
@@ -26,9 +26,9 @@ Follow these steps to run the project on your local machine:
 
 1. **Clone the repository**
 
-   Navigate to the directory where you want the cloned repository to be placed by using the ``cd`` command in your terminal followed by the path of the directory.
+   Navigate to the directory where you want the cloned repository to be placed by using the ``cd`` command in your terminal, followed by the path of the directory.
 
-   Then you can clone this repository by running the following command in your terminal:
+   Then, you can clone this repository by running the following command in your terminal:
 
    git clone https://github.com/JMNAJE/data_analysis_capstone.git
 2. **Navigate to the cloned directory**
@@ -36,7 +36,7 @@ Follow these steps to run the project on your local machine:
    Change your current directory to the cloned repository's directory data_analysis_capstone.
 3. **Set up a virtual environment**
 
-   It's recommended to create a virtual environment to keep the project's dependencies isolated from your system's Python environment. You can create a virtual environment using the following command:
+   Creating a virtual environment is recommended to keep the project's dependencies isolated from your system's Python environment. You can create a virtual environment using the following command:
 
    On Windows:
 
