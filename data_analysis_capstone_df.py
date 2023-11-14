@@ -420,7 +420,7 @@ data_teams.head(15)
 # In[39]:
 
 
-# Assuming data_teams is the DataFrame you want to save
+# save the dataframe 
 file_path = r'D:\Code LOU\data_analysis_capstone\Cleaned_Data\cleaned_teams.csv'
 
 # Save the DataFrame to the CSV file at the specified path
@@ -481,7 +481,7 @@ print(list(merged_df.columns))
 # In[90]:
 
 
-# Assuming 'merged_df' is your merged DataFrame
+# Merged the DataFrame
 # Group by 'Team' and calculate average runs, hits, and home runs, then round to nearest integer
 team_stats = np.round(merged_df.groupby('Team')['Runs', 'Hits', 'Home Runs', '].mean(), 0)
 
@@ -489,7 +489,7 @@ team_stats = np.round(merged_df.groupby('Team')['Runs', 'Hits', 'Home Runs', '].
 print("Average stats by Team:")
 print(team_stats)
 
-# Similarly, group by 'League' and calculate the same statistics, then round to nearest integer
+# group by 'League' and calculate the same statistics, then round to nearest integer
 league_stats = np.round(merged_df.groupby('League')['Runs', 'Hits', 'Home Runs' ].mean(), 0)
 
 # Display the league statistics
@@ -516,7 +516,6 @@ plt.show()
 # In[52]:
 
 
-# Assuming 'merged_df' is your original DataFrame
 # Group by 'Team' and calculate average hits, then sort in descending order
 team_stats = merged_df.groupby('Team')['Hits'].mean().sort_values(ascending=False)
 
@@ -533,7 +532,6 @@ plt.show()
 # In[82]:
 
 
-# Assuming 'merged_df' is your original DataFrame
 # Group by 'Team' and calculate average hits, then sort in descending order
 team_stats = merged_df.groupby('Team')['Home Runs'].mean().sort_values(ascending=False)
 
@@ -550,7 +548,6 @@ plt.show()
 # In[85]:
 
 
-# Assuming 'merged_df' is your original DataFrame
 # Group by 'Team' and calculate average hits, then sort in descending order
 team_stats = merged_df.groupby('Team')['Wins'].mean().sort_values(ascending=False)
 
@@ -568,8 +565,6 @@ plt.show()
 
 # In[94]:
 
-
-# Assuming 'merged_df' is your merged DataFrame with 'name' and 'Team' columns
 
 # Group by 'name' (player) and calculate average home runs, then round to nearest integer
 player_avg_hr = np.round(merged_df.groupby('name')['R'].mean(), 0)
@@ -592,32 +587,8 @@ print("Top Ten Players with the Most Runs:")
 print(top_ten_players_with_teams[['name', 'R', 'Team']])
 
 
-# In[99]:
+# In[100]:
 
-
-# Sample data for demonstration purposes
-data = {
-    'name': ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5'],
-    'statistic': [40, 35, 30, 25, 20]  # Replace 'statistic' with the relevant measure, e.g., runs, hits, etc.
-}
-
-# Creating a DataFrame from the sample data
-top_players = pd.DataFrame(data)
-
-# Sizes for the treemap
-sizes = top_players['statistic']
-
-# Creating the treemap
-plt.figure(figsize=(10, 8))
-squarify.plot(sizes, label=top_players['name'], alpha=0.7)
-plt.title('Tree Map of Top 5 Players')
-plt.axis('off')  # Re
-
-
-# In[73]:
-
-
-# Assuming 'merged_df' is your merged DataFrame with 'name' and 'Team' columns
 
 # Group by 'name' (player) and calculate average home runs, then round to nearest integer
 player_avg_hr = np.round(merged_df.groupby('name')['HR'].mean(), 0)
@@ -640,16 +611,8 @@ print("Top Ten Players with the Most Home Runs:")
 print(top_ten_players_with_teams[['name', 'HR', 'Team']])
 
 
-# In[ ]:
-
-
-
-
-
 # In[76]:
 
-
-# Assuming 'merged_df' is your merged DataFrame with 'name' and 'Team' columns
 
 # Group by 'name' (player) and calculate average home runs, then round to nearest integer
 player_avg_hr = np.round(merged_df.groupby('name')['RBI'].mean(), 0)
@@ -674,8 +637,6 @@ print(top_ten_players_with_teams[['name', 'RBI', 'Team']])
 
 # In[95]:
 
-
-# Assuming 'merged_df' is your merged DataFrame with 'name' and 'Team' columns
 
 # Group by 'name' (player) and calculate average home runs, then round to nearest integer
 player_avg_hr = np.round(merged_df.groupby('name')['H'].mean(), 0)
