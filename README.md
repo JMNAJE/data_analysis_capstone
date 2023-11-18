@@ -10,7 +10,7 @@ In this analysis of the 2018 Major League Baseball (MLB) season, I examined the 
 
 ## Data Sources
 
-CSVs:
+CSVs:<br><br>
 <b>atbats.csv</b>
 This dataset contains the names of Major League Baseball players along with the number of games played, at-bats, runs, hits, and other measurable statistics for the 2018 season.
 
