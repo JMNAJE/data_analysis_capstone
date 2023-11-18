@@ -6,16 +6,18 @@ data_analysis_capstone.
 
 ## About
 
-Welcome! This analysis explores the statistics of the 2018 Major League Baseball (MLB) season, examining both individual player and team performance. The goal of this project is to ascertain whether there is any correlation between the top players and the most successful teams.
-
-Unlike other team sports, a high payroll, indicative of having the best players, does not always guarantee success. In basketball, securing the number one draft pick in the National Basketball Association  (NBA) can transform a franchise dramatically, whereas in baseball, a top draft pick may not necessarily secure a spot on a major league team.
+In this analysis of the 2018 Major League Baseball (MLB) season, I examined the performance metrics of both teams and individual players. Our primary focus revolved around identifying correlations between the top-performing players and the overall success of their respective teams. By delving into key statistical categories such as Runs, Hits, Home Runs, and Wins, W aimed to uncover insights into what factors most significantly contributed to team victories and, ultimately, postseason achievements.
 
 ## Data Sources
 
 CSVs:
-2018 Season
+<b>atbats.csv</b>
+This dataset contains the names of Major League Baseball players along with the number of games played, at-bats, runs, hits, and other measurable statistics for the 2018 season.
 
-## Installation
+<b>teams.csv</b>
+This dataset captures the statistics of all 30 Major League Baseball teams for the 2018 season. It includes team stats such as total wins and losses. Additionally, it encompasses overall team performance metrics such as runs, hits, home runs, and strikeouts.
+
+## Virtual Environment Installation
 
 Before you start to explore the project, please ensure you have met the following requirements:
 
@@ -86,15 +88,12 @@ To deactivate the virtual environment when you're done, simply type `deactivate`
 
 ## Summary of Findings
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Historically, teams with a strong offensive lineup, like the 2018 Boston Red Sox, have shown success in the postseason. The Red Sox's victory in the 2018 World Series, backed by their players' high rankings in key batting statistics, exemplifies this trend. However, it's important to note that while this is a supportive factor, it's not an absolute predictor.
 
-## At Bats
+The contrasting postseason fates of the 2018 Milwaukee Brewers and Los Angeles Dodgers encapsulate the unpredictable nature of baseball playoffs. While the Brewers, leading the National League in regular-season wins, did not advance to the World Series, the Dodgers made it to the finals despite having fewer wins and lacking top-10 players in key statistics. This dichotomy highlights that success in baseball is not solely contingent on regular-season performance or individual statistical dominance. Factors like playoff experience, team depth, balanced contributions across the roster, strategic in-game decisions, and effective bullpen management play pivotal roles in navigating the intricacies and pressures of postseason baseball, often overriding regular-season achievements.
 
-This dataset contains the names of Major League Baseball players along with the number of games played, at-bats, runs, hits, and other measurable statistics for the 2018 season.
+The 2018 Milwaukee Brewers and Los Angeles Dodgers contrasting postseason performance captures the unpredicatable nature of the sport of baseball. While the Brewers, leading the National League in regular-season wins, did not advance to the World Series, the Dodgers made it to the finals despite having fewer wins and lacking top-10 players in key statistics. Factors like playoff experience, team depth, balanced contributions across the roster, strategic in-game decisions, and effective bullpen management play pivotal roles in navigating the intricacies and pressures of the sport, which are often not seen in other team sports.
 
-## Teams
-
-This dataset captures the statistics of all 30 Major League Baseball teams for the 2018 season. It includes team stats such as total wins and losses. Additionally, it encompasses overall team performance metrics such as runs, hits, home runs, and strikeouts.
 
 ## Data Analysis Capstone Requirements | Spring 2023
 
