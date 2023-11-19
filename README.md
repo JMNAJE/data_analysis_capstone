@@ -86,6 +86,10 @@ Follow these steps to run the project on your local machine:
 
 To deactivate the virtual environment when you're done, simply type `deactivate` in your terminal.
 
+## Data Visualizations
+Futher data exploration and visualizations can be found on [Tableau Public Work](https://public.tableau.com/app/profile/jose.najera4967/viz/data_analysis_capstone_Tableau/2018MLBDashboard)
+
+
 ## Summary of Findings
 
 Historically, teams with a strong offensive lineup, like the 2018 Boston Red Sox, have shown success in the postseason. The Red Sox's victory in the 2018 World Series, backed by their players' high rankings in key batting statistics, exemplifies this trend. However, it's important to note that while this is a supportive factor, it's not an absolute predictor.
